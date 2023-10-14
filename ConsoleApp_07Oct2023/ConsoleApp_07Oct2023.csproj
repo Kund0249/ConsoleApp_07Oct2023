@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Oct2023.ControlStatement.If_Demo.SwitchCaseDemo</StartupObject>
+    <StartupObject>ConsoleApp_07Oct2023.ControlStatement.IterationSTatement.doWhileLoop_Demo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,10 @@
     <Compile Include="ControlStatement\If_Demo\Positive_negative.cs" />
     <Compile Include="ControlStatement\If_Demo\Program1.cs" />
     <Compile Include="ControlStatement\If_Demo\SwitchCaseDemo.cs" />
+    <Compile Include="ControlStatement\IterationSTatement\doWhileLoop_Demo.cs" />
+    <Compile Include="ControlStatement\IterationSTatement\ForLoopDemo.cs" />
+    <Compile Include="ControlStatement\IterationSTatement\Pattern1.cs" />
+    <Compile Include="ControlStatement\IterationSTatement\WileLoop_Demo.cs" />
     <Compile Include="DataType_Demo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program2.cs" />
