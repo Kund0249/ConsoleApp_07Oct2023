@@ -21,6 +21,7 @@ namespace ConsoleApp_07Oct2023.ControlStatement.IterationSTatement
                 Console.Write("Enter N2 : ");
                 int N2 = Convert.ToInt32(Console.ReadLine());
 
+                UserChoice:
                 Console.Write("[Add-1 Sub-2 Mul-3 Div-4] : ");
                 byte Op = Convert.ToByte(Console.ReadLine());
 
@@ -40,6 +41,7 @@ namespace ConsoleApp_07Oct2023.ControlStatement.IterationSTatement
                         break;
                     default:
                         Console.WriteLine("Opps! you entered an invalid input!.");
+                        goto UserChoice;
                         break;
                 }
 
@@ -47,6 +49,7 @@ namespace ConsoleApp_07Oct2023.ControlStatement.IterationSTatement
                 choice = Console.ReadKey().KeyChar;
                 choice = char.ToLower(choice);
                 Console.WriteLine();
+
             } while (choice == 'y');
 
           

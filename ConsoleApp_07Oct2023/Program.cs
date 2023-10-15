@@ -1,6 +1,6 @@
 ﻿using System;
-using Varchra = System.String;
-using Number = System.Int32;
+using ConsoleApp_07Oct2023.Methods;
+
 
 namespace ConsoleApp_07Oct2023
 {
@@ -8,27 +8,42 @@ namespace ConsoleApp_07Oct2023
     {
         public static void Main()
         {
-            Number a = 10;
-            Int32 b = 20;
-            // string V2 = "20";
+            //Crate and instance of class (to use the instance member of the class)
+            MathCLient math = new MathCLient();
+            int Value = 10;
+            math.Increment(ref Value);
+            Console.WriteLine("Value : " + Value);
 
-            //int N1 = int.Parse(V1); // 10
-            //int N2 = Convert.ToInt32(V2);//20
+            //Console.Write("Enter N1 : ");
+            //int N1 = Convert.ToInt32(Console.ReadLine());
 
-            //Console.WriteLine(V1 + V2);
-            //Console.WriteLine(N1 + N2);
+            //Console.Write("Enter N2 : ");
+            //int N2 = Convert.ToInt32(Console.ReadLine());
 
-            //string value = Console.ReadLine(); //"10"
-            //Console.Write("Enter your name : ");
-            //string Name = System.Console.ReadLine();
-            ////Name = "Abc";
+            //int Sum = math.Sum(N1,N2);
 
-            //Console.Write("Enter your Age : ");
-            //int Age = Convert.ToInt32(System.Console.ReadLine());
-            ////Console.WriteLine("Hello " + Name + ", Good After noon!, you are " + Age + " years old.");
-            //// Console.WriteLine("Hello {0}, Good After noon!. you are {1} years old",Name,Age);
-            //Console.WriteLine($"Hello {Name}, Good After noon!. you are {Age} years old");
+            //Console.WriteLine("Sum : " + Sum);
 
+            //if (math.IsPrime(Sum))
+            //{
+            //    Console.WriteLine("Sum is a prime Number");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Sum is not a prime Number");
+            //}
+
+            //math.Message();
+            //int rev = math.Reverse(Sum);
+
+            //if(rev == Sum)
+            //{
+            //    Console.WriteLine("Sum is a Palindrome Number");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Sum is not a Palindrome Number");
+            //}
         }
     }
 }
