@@ -2,12 +2,15 @@
 using ConsoleApp_07Oct2023.Methods;
 
 
+
 namespace ConsoleApp_07Oct2023
 {
     class Program
     {
+     
         public static void Main()
         {
+              //Console.Write("Hello");
             //Crate and instance of class (to use the instance member of the class)
             MathCLient math = new MathCLient();
             int Value = 10;
