@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Oct2023.Methods.TypeOfVariable</StartupObject>
+    <StartupObject>ConsoleApp_07Oct2023.OOPS.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,6 +64,7 @@
     <Compile Include="Methods\Student.cs" />
     <Compile Include="Methods\TypeOfVariable.cs" />
     <Compile Include="Methods\TypesOfMethod.cs" />
+    <Compile Include="OOPS\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,5 +72,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
