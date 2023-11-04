@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Oct2023.OOPS.Program</StartupObject>
+    <StartupObject>ConsoleApp_07Oct2023.OOPS.BanckAccount.Startup</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,6 +64,14 @@
     <Compile Include="Methods\Student.cs" />
     <Compile Include="Methods\TypeOfVariable.cs" />
     <Compile Include="Methods\TypesOfMethod.cs" />
+    <Compile Include="OOPS\BanckAccount\HomeLoan.cs" />
+    <Compile Include="OOPS\BanckAccount\LoanAccount.cs" />
+    <Compile Include="OOPS\BanckAccount\Startup.cs" />
+    <Compile Include="OOPS\BanckAccount\VechicalLoan.cs" />
+    <Compile Include="OOPS\Polymorphism\MailCilent.cs" />
+    <Compile Include="OOPS\Polymorphism\MailService.cs" />
+    <Compile Include="OOPS\Polymorphism\MathClient.cs" />
+    <Compile Include="OOPS\Polymorphism\Notifier.cs" />
     <Compile Include="OOPS\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program2.cs" />
