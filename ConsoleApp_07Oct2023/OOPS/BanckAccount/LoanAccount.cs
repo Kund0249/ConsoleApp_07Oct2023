@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_07Oct2023.OOPS.BanckAccount
 {
-    class LoanAccount
+   abstract class LoanAccount
     {
         public string AccountNumber;
         public string AccountHolder;

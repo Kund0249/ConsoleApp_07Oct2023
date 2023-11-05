@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Oct2023.OOPS.BanckAccount.Startup</StartupObject>
+    <StartupObject>ConsoleApp_07Oct2023.OOPS.Encapsulation.Startup</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,10 +64,15 @@
     <Compile Include="Methods\Student.cs" />
     <Compile Include="Methods\TypeOfVariable.cs" />
     <Compile Include="Methods\TypesOfMethod.cs" />
+    <Compile Include="OOPS\Abstraction\AbstractExample\CSVReader.cs" />
+    <Compile Include="OOPS\Abstraction\AbstractExample\ExcelReader.cs" />
+    <Compile Include="OOPS\Abstraction\AbstractExample\FileReader.cs" />
     <Compile Include="OOPS\BanckAccount\HomeLoan.cs" />
     <Compile Include="OOPS\BanckAccount\LoanAccount.cs" />
     <Compile Include="OOPS\BanckAccount\Startup.cs" />
     <Compile Include="OOPS\BanckAccount\VechicalLoan.cs" />
+    <Compile Include="OOPS\Encapsulation\Startup.cs" />
+    <Compile Include="OOPS\Encapsulation\Student.cs" />
     <Compile Include="OOPS\Polymorphism\MailCilent.cs" />
     <Compile Include="OOPS\Polymorphism\MailService.cs" />
     <Compile Include="OOPS\Polymorphism\MathClient.cs" />
@@ -79,6 +84,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{d2f88df7-4b88-43dc-b6a3-f8a26f074276}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

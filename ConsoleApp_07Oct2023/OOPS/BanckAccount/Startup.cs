@@ -22,15 +22,17 @@ namespace ConsoleApp_07Oct2023.OOPS.BanckAccount
         static void Main(string[] args)
         {
 
-            int N = 10;
+          
 
-            Department department = new Department()
-            {
-                DepartmentCode = "IT01",
-                DepartmentName = "Information Technology - 1"
-            };
+            //int N = 10;
 
-            Console.WriteLine(department.ToString());
+            //Department department = new Department()
+            //{
+            //    DepartmentCode = "IT01",
+            //    DepartmentName = "Information Technology - 1"
+            //};
+
+            //Console.WriteLine(department.ToString());
             
 
             //MathClient client = new MathClient();
