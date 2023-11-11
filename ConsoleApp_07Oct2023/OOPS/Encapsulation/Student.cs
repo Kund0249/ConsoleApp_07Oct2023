@@ -52,6 +52,11 @@ namespace ConsoleApp_07Oct2023.OOPS.Encapsulation
                     throw new Exception("Gender is not valid.");
             }
         }
+
+        public override string ToString()
+        {
+            return string.Format($"Roll No : {StudentId}, Name : {StudentName} , Gender : {Gender}");
+        }
         //public void SetId(int Id)
         //{
         //    if (Id > 0)

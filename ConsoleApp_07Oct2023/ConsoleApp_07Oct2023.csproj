@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Oct2023.OOPS.Encapsulation.Startup</StartupObject>
+    <StartupObject>ConsoleApp_07Oct2023.GenericsExample.ListDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,10 @@
     <Compile Include="ControlStatement\IterationSTatement\WileLoop_Demo.cs" />
     <Compile Include="ControlStatement\JumpStatement\ContinueStatement.cs" />
     <Compile Include="DataType_Demo.cs" />
+    <Compile Include="ExceptionHandling\Startup.cs" />
+    <Compile Include="GenericsExample\employee.cs" />
+    <Compile Include="GenericsExample\ListDemo.cs" />
+    <Compile Include="GenericsExample\Startup.cs" />
     <Compile Include="Methods\MainEntryPoint.cs" />
     <Compile Include="Methods\MathCLient.cs" />
     <Compile Include="Methods\Student.cs" />
