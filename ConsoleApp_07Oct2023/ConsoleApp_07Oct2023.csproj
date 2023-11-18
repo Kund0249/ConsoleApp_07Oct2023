@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Oct2023.GenericsExample.ListDemo</StartupObject>
+    <StartupObject>ConsoleApp_07Oct2023.GenericsExample.Statck</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,9 +60,13 @@
     <Compile Include="ControlStatement\JumpStatement\ContinueStatement.cs" />
     <Compile Include="DataType_Demo.cs" />
     <Compile Include="ExceptionHandling\Startup.cs" />
+    <Compile Include="GenericsExample\BookRepository.cs" />
     <Compile Include="GenericsExample\employee.cs" />
+    <Compile Include="GenericsExample\HashSetDemo.cs" />
     <Compile Include="GenericsExample\ListDemo.cs" />
+    <Compile Include="GenericsExample\QueueExample.cs" />
     <Compile Include="GenericsExample\Startup.cs" />
+    <Compile Include="GenericsExample\Statck.cs" />
     <Compile Include="Methods\MainEntryPoint.cs" />
     <Compile Include="Methods\MathCLient.cs" />
     <Compile Include="Methods\Student.cs" />

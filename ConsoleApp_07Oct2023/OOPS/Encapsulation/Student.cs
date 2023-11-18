@@ -70,4 +70,59 @@ namespace ConsoleApp_07Oct2023.OOPS.Encapsulation
         //    return _StudentId;
         //}
     }
+
+    class Books
+    {
+        private int _BookId;
+        private string _BookName;
+        private float _Price;
+        private int _Qty;
+
+        public int BookId
+        {
+            set
+            {
+                if (value > 0)
+                    _BookId = value;
+                else
+                    throw new Exception("Student Id must be greater than 0.");
+            }
+            get { return _BookId; }
+        }
+        public String BookName
+        {
+            get { return _BookName; }
+            set
+            {
+                if (!(string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value)))
+                    _BookName = value;
+                else
+                    throw new Exception("Book Name is not valid.");
+
+            }
+        }
+
+        public float Price
+        {
+            set {
+                if (value > 0)
+                    _Price = value;
+                else
+                    throw new Exception("Price must be greater than 0.");
+            }
+            get { return _Price; }
+        }
+        public int Qty
+        {
+            set
+            {
+                if (value > 0)
+                    _Qty = value;
+                else
+                    throw new Exception("Student Id must be greater than 0.");
+            }
+            get { return _Qty; }
+        }
+
+    }
 }
