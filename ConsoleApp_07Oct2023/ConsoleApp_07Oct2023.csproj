@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_07Oct2023.GenericsExample.Statck</StartupObject>
+    <StartupObject>ConsoleApp_07Oct2023.FileHandling.Logger</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,7 +59,9 @@
     <Compile Include="ControlStatement\IterationSTatement\WileLoop_Demo.cs" />
     <Compile Include="ControlStatement\JumpStatement\ContinueStatement.cs" />
     <Compile Include="DataType_Demo.cs" />
+    <Compile Include="DelegateExample\DelegateDemo.cs" />
     <Compile Include="ExceptionHandling\Startup.cs" />
+    <Compile Include="FileHandling\Logger.cs" />
     <Compile Include="GenericsExample\BookRepository.cs" />
     <Compile Include="GenericsExample\employee.cs" />
     <Compile Include="GenericsExample\HashSetDemo.cs" />
